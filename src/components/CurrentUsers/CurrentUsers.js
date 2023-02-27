@@ -2,18 +2,12 @@ import styles from './CurrentUsers.module.css'
 import Card from '../UI/Card'
 import CurrentUser from './CurrentUser'
 
-const CurrentUsers = () => {
-	const users = [
-		{ name: 'Patryk', age: 28 },
-		{ name: 'Aleksandra', age: 30 },
-		{ name: 'Kacper', age: 3 },
-	]
-
+const CurrentUsers = props => {
 	return (
 		<Card>
 			<ul>
-				{users.map(user => (
-					<CurrentUser name={user.name} age={user.age} />
+				{props.users.map(user => (
+					<CurrentUser key={user.key} name={user.name} age={user.age} />
 				))}
 			</ul>
 		</Card>
