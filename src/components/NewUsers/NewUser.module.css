@@ -14,6 +14,12 @@
 	border: 1px solid gray;
 }
 
+
+
+.warning {
+	color: red;
+}
+
 .form__button {
 	width: fit-content;
 	padding: 0.5em 1.4em;
