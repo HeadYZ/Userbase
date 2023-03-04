@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Userbase/static/css/main.f8903d59.css",
+    "main.js": "/Userbase/static/js/main.7b68f59d.js",
+    "index.html": "/Userbase/index.html",
+    "main.f8903d59.css.map": "/Userbase/static/css/main.f8903d59.css.map",
+    "main.7b68f59d.js.map": "/Userbase/static/js/main.7b68f59d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8903d59.css",
+    "static/js/main.7b68f59d.js"
+  ]
+}
